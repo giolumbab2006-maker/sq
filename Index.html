@@ -1,0 +1,751 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Discover Siquijor — Isla del Fuego. Official tourism portal for beaches, waterfalls, heritage sites, local cuisine, and adventures in Siquijor, Philippines.">
+    <meta name="keywords" content="Siquijor, Isla del Fuego, Philippines tourism, Cambugahay Falls, Paliton Beach, Siquijor travel guide">
+    <meta name="author" content="Siquijor Provincial Tourism Board">
+    <meta property="og:title" content="Siquijor Tourism | Isla del Fuego">
+    <meta property="og:description" content="The official tourism portal of Siquijor Island, Philippines. Explore pristine beaches, heritage sites, local delicacies, and island culture.">
+    <meta property="og:image" content="https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=1200&q=80">
+    <meta property="og:type" content="website">
+    <meta name="twitter:card" content="summary_large_image">
+    <title>Siquijor Tourism | Isla del Fuego — Official Portal</title>
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🌅</text></svg>">
+
+    <!-- External CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;0,700;1,400&family=DM+Sans:wght@300;400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+    <!-- Local CSS -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<!-- ════════════════════════════════════════════════════
+     SCROLL PROGRESS BAR
+════════════════════════════════════════════════════ -->
+<div id="scrollProgress"></div>
+
+<!-- ════════════════════════════════════════════════════
+     NAVIGATION
+════════════════════════════════════════════════════ -->
+<nav id="mainNav" class="navbar navbar-expand-lg fixed-top modern-nav">
+    <div class="container">
+        <a class="navbar-brand navbar-brand-text" href="#home">
+            <span class="brand-emblem"><i class="bi bi-sun-fill spin-slow"></i></span>
+            SIQUIJOR
+        </a>
+        <button class="navbar-toggler" type="button"
+            data-bs-toggle="collapse" data-bs-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto align-items-center gap-1">
+                <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
+                <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+                <li class="nav-item"><a class="nav-link" href="#destinations">Destinations</a></li>
+                <li class="nav-item"><a class="nav-link" href="#culture">Festivals</a></li>
+                <li class="nav-item"><a class="nav-link" href="#food">Delicacies</a></li>
+                <li class="nav-item"><a class="nav-link" href="#gallery">Gallery</a></li>
+                <li class="nav-item"><a class="nav-link" href="#tips">Tips</a></li>
+                <li class="nav-item ms-2">
+                    <a class="nav-link btn-nav-cta" href="#inquiry">
+                        <i class="bi bi-send me-1"></i>Inquire Now
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<!-- ════════════════════════════════════════════════════
+     HERO SECTION
+════════════════════════════════════════════════════ -->
+<header id="home" class="hero-section">
+    <div class="hero-video-bg"></div>
+    <div class="hero-overlay"></div>
+
+    <div class="hero-content">
+        <div class="hero-badge">
+            <i class="bi bi-shield-fill-check"></i>
+            Official Tourism Portal
+        </div>
+        <h1 class="hero-title">
+            Siquijor
+            <span class="accent-word">Isla del Fuego</span>
+        </h1>
+        <p class="hero-tagline">Central Visayas · Philippines · Est. 1971</p>
+        <p class="hero-desc">
+            Step into a mesmerizing paradise wrapped in pristine turquoise marine lifelines,
+            ancestral coral stone sanctuaries, and timeless tales of natural wonder.
+        </p>
+        <div class="hero-cta-row">
+            <a href="#destinations" class="btn-hero-primary">
+                <i class="bi bi-compass-fill"></i>
+                Explore Destinations
+            </a>
+            <a href="#about" class="btn-hero-ghost">
+                <i class="bi bi-book-fill"></i>
+                Read Our Story
+            </a>
+        </div>
+    </div>
+
+    <div class="hero-scroll-cue">
+        <div class="scroll-cue-line"></div>
+        <span>Scroll</span>
+    </div>
+
+    <div class="hero-waves">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+            <path d="M321.39,56.44c58-10.79,114.16-30.13,172-41.86,82.39-16.72,168.19-17.73,250.45-.39C823.78,31,906.67,72,985.66,92.83c70.05,18.48,146.53,26.09,214.34,3V120H0V0C26.9,3,57.5,12.5,85.13,18.18,154.06,32.38,221.12,69.59,321.39,56.44Z" class="wave-fill-dark"></path>
+        </svg>
+    </div>
+</header>
+
+<!-- ════════════════════════════════════════════════════
+     STATS TICKER
+════════════════════════════════════════════════════ -->
+<div class="stats-ticker">
+    <div class="container">
+        <div class="stats-grid">
+            <div class="stat-item" data-reveal="up">
+                <span class="stat-number" data-count-to="8" data-count-suffix="+">0</span>
+                <span class="stat-label">Tourist Destinations</span>
+            </div>
+            <div class="stat-item" data-reveal="up" data-delay="100">
+                <span class="stat-number" data-count-to="6" data-count-suffix="">0</span>
+                <span class="stat-label">Municipalities</span>
+            </div>
+            <div class="stat-item" data-reveal="up" data-delay="200">
+                <span class="stat-number" data-count-to="400" data-count-suffix="yrs">0</span>
+                <span class="stat-label">Rich Heritage</span>
+            </div>
+            <div class="stat-item" data-reveal="up" data-delay="300">
+                <span class="stat-number" data-count-to="365" data-count-suffix="">0</span>
+                <span class="stat-label">Days of Paradise</span>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- ════════════════════════════════════════════════════
+     ABOUT SECTION
+════════════════════════════════════════════════════ -->
+<section id="about" class="about-section py-section text-white">
+    <div class="about-glow"></div>
+    <div class="about-glow-2"></div>
+    <div class="container position-relative z-1">
+        <div class="text-center mb-5">
+            <span class="section-eyebrow text-amber" data-reveal="up">Historical Background</span>
+            <h2 class="section-title text-white" data-reveal="up" data-delay="100">About the Province</h2>
+            <div class="section-rule bg-amber mx-auto" data-reveal="up" data-delay="200"></div>
+        </div>
+        <div class="row g-5 align-items-center">
+            <div class="col-lg-6" data-reveal="left">
+                <div class="about-card">
+                    <h3 class="font-display fs-2 mb-4 text-amber">
+                        <i class="bi bi-water me-2"></i>The Mystical Island of Fire
+                    </h3>
+                    <div class="about-info-row">
+                        <p>
+                            <i class="bi bi-geo-alt-fill"></i>
+                            <span>
+                                <strong class="text-white">Location:</strong>
+                                Nestled in the Central Visayas region, Siquijor floats southeast of Cebu and Negros, over the clear northern channels of Mindanao Sea.
+                            </span>
+                        </p>
+                        <p>
+                            <i class="bi bi-hourglass-split"></i>
+                            <span>
+                                <strong class="text-white">History:</strong>
+                                Dubbed <em>Isla del Fuego</em> by Spanish colonizers due to the brilliant glow of massive firefly clusters clinging to molave tree forests.
+                            </span>
+                        </p>
+                        <p>
+                            <i class="bi bi-gem"></i>
+                            <span>
+                                <strong class="text-white">Known For:</strong>
+                                Multi-layered turquoise springs, centuries-old banyan trees, historical Spanish brick masonry, and folk healing traditions.
+                            </span>
+                        </p>
+                        <p>
+                            <i class="bi bi-people-fill"></i>
+                            <span>
+                                <strong class="text-white">Culture:</strong>
+                                Celebrated for the unique Folk Healing Festival during Holy Week, where artisans gather organic mountain barks and roots under full moon.
+                            </span>
+                        </p>
+                    </div>
+
+                    <div class="about-stat-row">
+                        <div class="about-stat-chip">
+                            <div class="num">343</div>
+                            <span class="lbl">km²</span>
+                        </div>
+                        <div class="about-stat-chip">
+                            <div class="num">102K</div>
+                            <span class="lbl">Population</span>
+                        </div>
+                        <div class="about-stat-chip">
+                            <div class="num">6</div>
+                            <span class="lbl">Municipalities</span>
+                        </div>
+                    </div>
+
+                    <div class="about-accent-box mt-4">
+                        <h5 class="font-mono mb-1 text-white fs-6 fw-bold text-uppercase">
+                            <i class="bi bi-question-circle-fill me-2"></i>Why Visit Siquijor?
+                        </h5>
+                        <p class="small mb-0" style="color:rgba(255,255,255,0.85)">
+                            Siquijor breaks away from commercial crowds, offering pristine eco-sanctuaries, high-adrenaline water adventures, and an authentic island rhythm that feels untouched by time.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-6" data-reveal="right">
+                <div class="about-img-wrap">
+                    <div class="about-img-frame">
+                        <img src="https://apenoni.com/wp-content/uploads/2014/09/Siquijor-Island-cover.jpg"
+                             alt="Siquijor Shoreline" loading="lazy">
+                        <div class="about-img-badge">
+                            <span class="icon">🌴</span>
+                            <div>
+                                <div class="text-a">Since 1971</div>
+                                <div class="text-b">Independent Province</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- ════════════════════════════════════════════════════
+     DESTINATIONS SECTION
+════════════════════════════════════════════════════ -->
+<section id="destinations" class="destinations-section py-section">
+    <div class="container">
+        <div class="text-center mb-5">
+            <span class="section-eyebrow text-crimson" data-reveal="up">Curated Escapes</span>
+            <h2 class="section-title text-navy-mid" data-reveal="up" data-delay="100">Tourist Destinations</h2>
+            <div class="section-rule bg-crimson mx-auto" data-reveal="up" data-delay="200"></div>
+        </div>
+
+        <!-- Search & Filter Bar -->
+        <div class="search-filter-bar" data-reveal="up" data-delay="100">
+            <div class="row g-3 align-items-end">
+                <div class="col-md-5">
+                    <span class="filter-label"><i class="bi bi-search me-1"></i>Search Destinations</span>
+                    <div class="search-wrap">
+                        <i class="bi bi-search"></i>
+                        <input type="text" id="searchInput" class="search-input-field"
+                            placeholder="Name, municipality, or category…">
+                        <button id="searchClear" style="position:absolute;right:12px;background:none;border:none;color:#94a3b8;cursor:pointer;opacity:0;transition:opacity .2s;">
+                            <i class="bi bi-x-circle-fill"></i>
+                        </button>
+                    </div>
+                </div>
+                <div class="col-md-7">
+                    <span class="filter-label"><i class="bi bi-funnel me-1"></i>Filter by Category</span>
+                    <div class="pill-group" id="categoryPillBox">
+                        <button class="btn-pill active" data-category="All">All Spots</button>
+                        <button class="btn-pill" data-category="Beach">Beaches</button>
+                        <button class="btn-pill" data-category="Mountain">Mountains</button>
+                        <button class="btn-pill" data-category="Waterfall">Waterfalls</button>
+                        <button class="btn-pill" data-category="Historical Site">Historical</button>
+                        <button class="btn-pill" data-category="Island">Islands</button>
+                        <button class="btn-pill" data-category="Adventure">Adventure</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Destination Cards Grid -->
+        <div class="row g-4" id="destinationsGrid"></div>
+    </div>
+</section>
+
+<!-- ════════════════════════════════════════════════════
+     FESTIVALS & CULTURE
+════════════════════════════════════════════════════ -->
+<section id="culture" class="culture-section py-section">
+    <div class="container">
+        <div class="text-center mb-5">
+            <span class="section-eyebrow text-amber" data-reveal="up">Island Celebrations</span>
+            <h2 class="section-title text-white" data-reveal="up" data-delay="100">Festivals & Culture</h2>
+            <div class="section-rule bg-amber mx-auto" data-reveal="up" data-delay="200"></div>
+        </div>
+        <div class="culture-grid">
+            <!-- Solili Festival -->
+            <div class="festival-card" data-reveal="left">
+                <div class="festival-card-img">
+                    <img src="https://scontent.fceb6-3.fna.fbcdn.net/v/t39.30808-6/550221424_1165488848731298_4297081984438739254_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=833d8c&_nc_eui2=AeFwV0w18NVrNWfZO0_KVzJ559NehE-Vo7jn016ET5WjuF8dd2Mz2-r0ZEbFz_17lF1br_lN6Wv4ZLpctJV1OIAE&_nc_ohc=yPqCEvQ0ynIQ7kNvwHA0SPy&_nc_oc=AdoGwST0Mvej5fVgPYACCNbKD2rb2AbHKQBUlfgx18n24G14o-sag6u51S8e0Cim7PVEDdCteSUVOFBBEBF_RI6s&_nc_zt=23&_nc_ht=scontent.fceb6-3.fna&_nc_gid=DTzggiwuz-Hagv1kBMDr6w&_nc_ss=7b2a8&oh=00_Af5wgUR06rGtL4atG5V4oATW5O58k3bG3BcoOcVY_q6xMg&oe=6A1421CD"
+                         alt="Solili Festival" loading="lazy">
+                    <div class="festival-img-overlay"></div>
+                    <span class="festival-month-badge bg-amber text-navy font-mono fw-bold">September</span>
+                </div>
+                <div class="festival-card-body">
+                    <span class="festival-tag text-amber">Annual Charter Celebration</span>
+                    <div class="festival-title">Solili Festival</div>
+                    <div class="festival-location"><i class="bi bi-geo-alt-fill"></i> Siquijor Town, Siquijor</div>
+                    <p class="festival-desc">The crown jewel of Siquijor's charter week celebrations. Dancers perform the rhythmic, fluid movements of the Solili courtship ritual — an elegant marriage dance honoring family unions and community ancestors.</p>
+                </div>
+            </div>
+            <!-- Folk Healing Festival -->
+            <div class="festival-card" data-reveal="right">
+                <div class="festival-card-img">
+                    <img src="https://siquijor-secrets.com/wp-content/uploads/2025/02/Siquijor-Healing-Festival-Dance.jpg"
+                         alt="Folk Healing Festival" loading="lazy">
+                    <div class="festival-img-overlay"></div>
+                    <span class="festival-month-badge bg-crimson text-white font-mono fw-bold">Holy Week</span>
+                </div>
+                <div class="festival-card-body">
+                    <span class="festival-tag" style="color:#fca5a5;">Ancient Healing Tradition</span>
+                    <div class="festival-title">Folk Healing Festival</div>
+                    <div class="festival-location"><i class="bi bi-geo-alt-fill"></i> Mt. Bandilaan, San Antonio</div>
+                    <p class="festival-desc">A mystical gathering on Mount Bandilaan's peak. Traditional medicine men, native potion shamans, and botanists compound secret natural elements to prepare ceremonial healing tonics during Holy Week.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- ════════════════════════════════════════════════════
+     FOOD & DELICACIES
+════════════════════════════════════════════════════ -->
+<section id="food" class="food-section py-section">
+    <div class="container">
+        <div class="text-center mb-5">
+            <span class="section-eyebrow text-crimson" data-reveal="up">Culinary Treasures</span>
+            <h2 class="section-title text-navy-mid" data-reveal="up" data-delay="100">Food & Local Delicacies</h2>
+            <div class="section-rule bg-crimson mx-auto" data-reveal="up" data-delay="200"></div>
+        </div>
+        <div class="row g-4">
+            <div class="col-sm-6 col-lg-3" data-reveal="up">
+                <div class="food-card">
+                    <div class="food-card-img">
+                        <img src="https://scontent.fceb2-2.fna.fbcdn.net/v/t39.30808-6/524903670_765219909600999_2222160441623975644_n.jpg?stp=dst-jpg_p526x296_tt6&_nc_cat=102&ccb=1-7&_nc_sid=833d8c&_nc_eui2=AeFU6qAfDwrc0JHEM-npqzb-TpUk0XF8tl5OlSTRcXy2Xvx37qUPWx1iAyPuoZn4UTZIsfOrQQR0dc957IWQ6vEy&_nc_ohc=onQVOKz_At4Q7kNvwGcGBeM&_nc_oc=AdqRjHcfHC_6VuxJBJpSWlPTrtn2I3GxV75_1kNjEgVsLS8zdRFbsIjiZsd5VumokKhuJCrPBa7waii2U4T3kn8W&_nc_zt=23&_nc_ht=scontent.fceb2-2.fna&_nc_gid=5NrsPLBdbxAHwqdmPiLuGg&_nc_ss=7b2a8&oh=00_Af4kU-ri1mP_wbScA3agEBg0libJZ7dxzFb8VCuKTIumJw&oe=6A1404C1"
+                             alt="Siquijor Torta" loading="lazy">
+                    </div>
+                    <div class="food-card-body">
+                        <div class="food-card-title">Siquijor Torta</div>
+                        <p class="food-card-desc">A sweet pastry native to the island, unique because it incorporates natural coconut wine (tuba) as a primary leavening component instead of modern commercial yeast.</p>
+                        <div class="food-card-source"><i class="bi bi-shop"></i> Public Markets & Bakeries</div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6 col-lg-3" data-reveal="up" data-delay="100">
+                <div class="food-card">
+                    <div class="food-card-img">
+                        <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgmuKm0C9VBGrzGLJCMiU1IcVWD18Dkkhjfn-Ragg3UrwDqKleSXQI1OAmZ9VWG2MvUUIPlTd7uyX5YI1kblEdDh-jL1C-jMRTnYhL4UGQvKKnqoUdiPRSZ65m0nPCbqoD6Ozc7dlRfXrym/s1600/1.jpg"
+                             alt="Pan de Bisaya" loading="lazy">
+                    </div>
+                    <div class="food-card-body">
+                        <div class="food-card-title">Pan de Bisaya</div>
+                        <p class="food-card-desc">A century-old recipe featuring thick, firm outer crust rings encasing an unbelievably soft, dense bread core. Famously dipped into hot chocolate brew arrays.</p>
+                        <div class="food-card-source"><i class="bi bi-shop"></i> Lazi Town Bakeries</div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6 col-lg-3" data-reveal="up" data-delay="200">
+                <div class="food-card">
+                    <div class="food-card-img">
+                        <img src="https://redplatter.ph/restaurant/wp-content/uploads/2016/08/Halo-sa-Buko.jpg"
+                             alt="Buko Halo-Halo" loading="lazy">
+                    </div>
+                    <div class="food-card-body">
+                        <div class="food-card-title">Buko Halo-Halo</div>
+                        <p class="food-card-desc">A classic icy layers treat packed with tropical fruit chunks, creamy milks, and jellies, meticulously mixed and presented inside a freshly carved green coconut shell.</p>
+                        <div class="food-card-source"><i class="bi bi-shop"></i> San Juan Beachside Stalls</div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6 col-lg-3" data-reveal="up" data-delay="300">
+                <div class="food-card">
+                    <div class="food-card-img">
+                        <img src="https://scontent.fceb2-1.fna.fbcdn.net/v/t1.6435-9/188757721_449927526298223_7181873907003670949_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=833d8c&_nc_eui2=AeGHDKm0p12QlhtB9S4km0otFNZ9dUO_b0oU1n11Q79vSoTsnBCUlL6PZ8DrcgqFXNJEnofL-n7foPRqP9c_5PXE&_nc_ohc=bbNTc7x0hSAQ7kNvwHT710m&_nc_oc=AdpIMyg-i0YAm2G4tzl9PPLosXuIRUyyY19UsOdXFuhy4elFitDaVYQ9qbKwDqo2mTXQ1RRseu1LPWXUdDbsEiFQ&_nc_zt=23&_nc_ht=scontent.fceb2-1.fna&_nc_gid=mMiDzSWJbxLFFm4JpqDw5w&_nc_ss=7b2a8&oh=00_Af5vWi5n88pocoxU5U2CKMju-cfNQFSTiZoorYCHo1HYEQ&oe=6A35A8F7"
+                             alt="Fresh Suwaki" loading="lazy">
+                    </div>
+                    <div class="food-card-body">
+                        <div class="food-card-title">Fresh Suwaki</div>
+                        <p class="food-card-desc">Raw, ocean-fresh sea urchins collected directly from shallow reefs by local fishermen at dawn. Best consumed right off the shell with spiced sugarcane vinegars.</p>
+                        <div class="food-card-source"><i class="bi bi-shop"></i> Coastal Seafood Shacks</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- ════════════════════════════════════════════════════
+     PHOTO GALLERY
+════════════════════════════════════════════════════ -->
+<section id="gallery" class="gallery-section py-section">
+    <div class="container">
+        <div class="text-center mb-5">
+            <span class="section-eyebrow text-teal-lt" data-reveal="up">Visual Diary</span>
+            <h2 class="section-title text-white" data-reveal="up" data-delay="100">Photo Gallery</h2>
+            <div class="section-rule bg-teal-lt mx-auto" data-reveal="up" data-delay="200"></div>
+            <p class="text-white-50 mt-3 small font-mono" data-reveal="up" data-delay="300">Click any tile to explore — use keyboard arrows to navigate</p>
+        </div>
+        <div class="gallery-grid" id="galleryContainer"></div>
+    </div>
+</section>
+
+<!-- ════════════════════════════════════════════════════
+     TRAVEL TIPS
+════════════════════════════════════════════════════ -->
+<section id="tips" class="tips-section py-section">
+    <div class="container">
+        <div class="text-center mb-5">
+            <span class="section-eyebrow text-amber" data-reveal="up">Traveller's Guide</span>
+            <h2 class="section-title text-navy-mid" data-reveal="up" data-delay="100">Travel Tips & Reminders</h2>
+            <div class="section-rule bg-amber mx-auto" data-reveal="up" data-delay="200"></div>
+        </div>
+        <div class="row g-4 justify-content-center">
+            <div class="col-md-6 col-lg-4" data-reveal="up">
+                <div class="tip-card tip-gold">
+                    <div class="tip-icon tip-icon-gold"><i class="bi bi-calendar2-week-fill"></i></div>
+                    <div>
+                        <div class="tip-title">Best Time to Visit</div>
+                        <p class="tip-desc">Aim for November through May (dry season months). Plan around Holy Week to witness the mystical folk healing convocations at Mt. Bandilaan.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-4" data-reveal="up" data-delay="100">
+                <div class="tip-card tip-teal">
+                    <div class="tip-icon tip-icon-teal"><i class="bi bi-scooter"></i></div>
+                    <div>
+                        <div class="tip-title">Getting Around</div>
+                        <p class="tip-desc">Board fast ferries from Dumaguete or Bohol. Secure a rented scooter at the port gate for easy circle-island navigation at your own pace.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-4" data-reveal="up" data-delay="200">
+                <div class="tip-card tip-red">
+                    <div class="tip-icon tip-icon-red"><i class="bi bi-shield-lock-fill"></i></div>
+                    <div>
+                        <div class="tip-title">Safety Reminders</div>
+                        <p class="tip-desc">Crime is virtually non-existent here. Drive defensively and always wear helmets when executing night drives on the circular island highway.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-4" data-reveal="up" data-delay="100">
+                <div class="tip-card tip-gold">
+                    <div class="tip-icon tip-icon-gold"><i class="bi bi-cash-coin"></i></div>
+                    <div>
+                        <div class="tip-title">Currency & ATMs</div>
+                        <p class="tip-desc">Carry sufficient Philippine Pesos (PHP). ATMs exist in Lazi and San Juan, but countryside beach vendors accept physical bills only.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-4" data-reveal="up" data-delay="200">
+                <div class="tip-card tip-teal">
+                    <div class="tip-icon tip-icon-teal"><i class="bi bi-heart-pulse-fill"></i></div>
+                    <div>
+                        <div class="tip-title">Eco Responsibility</div>
+                        <p class="tip-desc">Never anchor on or step over shallow living coral inside fish sanctuaries. Always dispose of single-use plastics responsibly — leave no trace.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-4" data-reveal="up" data-delay="300">
+                <div class="tip-card tip-royal">
+                    <div class="tip-icon tip-icon-royal"><i class="bi bi-wifi"></i></div>
+                    <div>
+                        <div class="tip-title">Connectivity</div>
+                        <p class="tip-desc">Mobile signal is available in major areas. Globe and Smart networks provide the best coverage. Download offline maps before venturing into mountain trails.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- ════════════════════════════════════════════════════
+     INQUIRY / BOOKING FORM
+════════════════════════════════════════════════════ -->
+<section id="inquiry" class="inquiry-section py-section">
+    <div class="inquiry-glow-1"></div>
+    <div class="inquiry-glow-2"></div>
+    <div class="container position-relative z-1">
+        <div class="row justify-content-center">
+            <div class="col-lg-9 col-xl-8">
+                <div class="inquiry-form-card">
+                    <div class="text-center mb-5">
+                        <span class="section-eyebrow text-amber" data-reveal="up">Booking Console</span>
+                        <h2 class="section-title text-white" data-reveal="up" data-delay="100">Plan Your Visit</h2>
+                        <div class="section-rule bg-amber mx-auto" data-reveal="up" data-delay="200"></div>
+                        <p class="text-white-50 mt-3 font-mono small" data-reveal="up" data-delay="300">
+                            Submit your inquiry directly to our island tourism operators
+                        </p>
+                    </div>
+
+                    <form id="inquiryForm" novalidate>
+                        <div class="row g-4">
+                            <div class="col-md-6" data-reveal="up">
+                                <label class="form-group-label" for="fullName">Full Name</label>
+                                <input type="text" id="fullName" class="form-field" placeholder="Gio Francis Pepito" autocomplete="name">
+                                <div class="error-msg" id="nameError"><i class="bi bi-exclamation-circle-fill"></i> Full name is required</div>
+                            </div>
+                            <div class="col-md-6" data-reveal="up" data-delay="100">
+                                <label class="form-group-label" for="email">Email Address</label>
+                                <input type="email" id="email" class="form-field" placeholder="gio@email.com" autocomplete="email">
+                                <div class="error-msg" id="emailError"><i class="bi bi-exclamation-circle-fill"></i> Enter a valid email address</div>
+                            </div>
+                            <div class="col-md-6" data-reveal="up">
+                                <label class="form-group-label" for="contactNumber">Contact Number</label>
+                                <input type="tel" id="contactNumber" class="form-field" placeholder="09123456789" autocomplete="tel">
+                                <div class="error-msg" id="contactError"><i class="bi bi-exclamation-circle-fill"></i> Enter a valid contact number</div>
+                            </div>
+                            <div class="col-md-6" data-reveal="up" data-delay="100">
+                                <label class="form-group-label" for="selectedDestination">Selected Destination</label>
+                                <select id="selectedDestination" class="form-field">
+                                    <option value="">— Choose a Destination —</option>
+                                </select>
+                                <div class="error-msg" id="destinationError"><i class="bi bi-exclamation-circle-fill"></i> Please select a destination</div>
+                            </div>
+                            <div class="col-md-6" data-reveal="up">
+                                <label class="form-group-label" for="travelDate">Travel Date</label>
+                                <input type="date" id="travelDate" class="form-field">
+                                <div class="error-msg" id="dateError"><i class="bi bi-exclamation-circle-fill"></i> Please select a travel date</div>
+                            </div>
+                            <div class="col-md-6" data-reveal="up" data-delay="100">
+                                <label class="form-group-label" for="numVisitors">Number of Visitors</label>
+                                <input type="number" id="numVisitors" class="form-field" min="1" placeholder="1">
+                                <div class="error-msg" id="visitorsError"><i class="bi bi-exclamation-circle-fill"></i> Must be at least 1 visitor</div>
+                            </div>
+                            <div class="col-12" data-reveal="up">
+                                <label class="form-group-label" for="message">Your Message</label>
+                                <textarea id="message" class="form-field" rows="4"
+                                    placeholder="Mention luggage requests, itinerary questions, accommodation needs, or any special arrangements…"></textarea>
+                                <div class="error-msg" id="messageError"><i class="bi bi-exclamation-circle-fill"></i> Please include a message (min. 10 characters)</div>
+                            </div>
+                            <div class="col-12 text-center mt-2" data-reveal="up">
+                                <button type="submit" class="btn-submit">
+                                    <i class="bi bi-send-check-fill"></i>
+                                    Dispatch Travel Inquiry
+                                </button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- ════════════════════════════════════════════════════
+     FOOTER
+════════════════════════════════════════════════════ -->
+<footer class="site-footer">
+    <div class="container">
+        <div class="row g-5 mb-4">
+            <!-- Brand Column -->
+            <div class="col-lg-4" data-reveal="up">
+                <div class="footer-logo">🌅 SIQUIJOR</div>
+                <div class="footer-tagline">Isla del Fuego · Official Tourism Portal</div>
+                <p class="footer-desc">
+                    Discover the magic of Siquijor — a mystical island paradise in the heart of the Philippines, where nature, heritage, and adventure converge.
+                </p>
+                <div class="footer-social">
+                    <a href="#" class="social-btn" aria-label="Facebook"><i class="bi bi-facebook"></i></a>
+                    <a href="#" class="social-btn" aria-label="Instagram"><i class="bi bi-instagram"></i></a>
+                    <a href="#" class="social-btn" aria-label="Twitter/X"><i class="bi bi-twitter-x"></i></a>
+                    <a href="#" class="social-btn" aria-label="YouTube"><i class="bi bi-youtube"></i></a>
+                    <a href="#" class="social-btn" aria-label="TikTok"><i class="bi bi-tiktok"></i></a>
+                </div>
+            </div>
+            <!-- Quick Links -->
+            <div class="col-sm-6 col-lg-2" data-reveal="up" data-delay="100">
+                <div class="footer-heading">Explore</div>
+                <ul class="footer-links">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#destinations">Destinations</a></li>
+                    <li><a href="#culture">Festivals</a></li>
+                    <li><a href="#food">Delicacies</a></li>
+                    <li><a href="#gallery">Gallery</a></li>
+                    <li><a href="#tips">Travel Tips</a></li>
+                    <li><a href="#inquiry">Inquire Now</a></li>
+                </ul>
+            </div>
+            <!-- Municipalities -->
+            <div class="col-sm-6 col-lg-2" data-reveal="up" data-delay="200">
+                <div class="footer-heading">Municipalities</div>
+                <ul class="footer-links">
+                    <li><a href="#">Siquijor (Capital)</a></li>
+                    <li><a href="#">Lazi</a></li>
+                    <li><a href="#">San Juan</a></li>
+                    <li><a href="#">Maria</a></li>
+                    <li><a href="#">Larena</a></li>
+                    <li><a href="#">Enrique Villanueva</a></li>
+                </ul>
+            </div>
+            <!-- Contact -->
+            <div class="col-lg-4" data-reveal="up" data-delay="300">
+                <div class="footer-heading">Get In Touch</div>
+                <div class="footer-contact-item">
+                    <i class="bi bi-geo-alt-fill"></i>
+                    <span>Provincial Capitol Complex, Siquijor Town, Siquijor 6225, Philippines</span>
+                </div>
+                <div class="footer-contact-item">
+                    <i class="bi bi-telephone-fill"></i>
+                    <span>(035) 480-0000 (Tourism Office)</span>
+                </div>
+                <div class="footer-contact-item">
+                    <i class="bi bi-envelope-fill"></i>
+                    <span>tourism@siquijor.gov.ph</span>
+                </div>
+                <div class="footer-contact-item">
+                    <i class="bi bi-clock-fill"></i>
+                    <span>Mon – Fri, 8:00 AM – 5:00 PM PHT</span>
+                </div>
+                <div class="footer-contact-item">
+                    <i class="bi bi-globe"></i>
+                    <span>www.siquijor.gov.ph</span>
+                </div>
+            </div>
+        </div>
+
+        <hr class="footer-divider">
+
+        <div class="footer-bottom">
+            <div class="footer-copy">
+                &copy; 2026 Siquijor Provincial Government · Tourism Board. All rights reserved.
+            </div>
+            <div class="footer-bottom-links">
+                <a href="#">Privacy Policy</a>
+                <a href="#">Terms of Use</a>
+                <a href="#">Accessibility</a>
+                <a href="#">Sitemap</a>
+            </div>
+        </div>
+    </div>
+</footer>
+
+<!-- ════════════════════════════════════════════════════
+     BACK TO TOP BUTTON
+════════════════════════════════════════════════════ -->
+<button id="backToTop" aria-label="Back to top">
+    <i class="bi bi-chevron-up"></i>
+</button>
+
+<!-- ════════════════════════════════════════════════════
+     TOAST NOTIFICATION CONTAINER
+════════════════════════════════════════════════════ -->
+<div id="toastContainer" class="toast-container" aria-live="polite"></div>
+
+<!-- ════════════════════════════════════════════════════
+     DESTINATION DETAILS MODAL
+════════════════════════════════════════════════════ -->
+<div class="modal fade modal-dest" id="detailsModal" tabindex="-1" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-lg modal-dialog-scrollable">
+        <div class="modal-content">
+            <!-- Hero Image -->
+            <div class="modal-hero">
+                <img id="modalImage" src="" alt="Destination" loading="lazy">
+                <div class="modal-hero-overlay"></div>
+                <div class="modal-hero-meta">
+                    <h3 class="font-display text-white fw-bold mb-1" id="modalTitle" style="font-size:2rem;"></h3>
+                    <p class="text-teal-lt font-mono small mb-0">
+                        <i class="bi bi-geo-alt-fill me-1"></i><span id="modalSubtitle"></span>
+                    </p>
+                </div>
+                <button class="modal-close-btn" data-bs-dismiss="modal" aria-label="Close">
+                    <i class="bi bi-x-lg"></i>
+                </button>
+                <span class="position-absolute top-0 start-0 m-3 font-mono fw-bold text-white small"
+                      style="background:rgba(220,38,38,0.85);padding:5px 14px;border-radius:50px;backdrop-filter:blur(6px);"
+                      id="modalCategory"></span>
+            </div>
+            <!-- Body -->
+            <div class="modal-body" style="background:var(--navy-mid);">
+                <h6 class="font-mono fw-bold text-amber mb-2 small text-uppercase">
+                    <i class="bi bi-journal-text me-1"></i>About This Destination
+                </h6>
+                <p id="modalFullDescription" class="text-white-70 mb-4" style="line-height:1.75;font-size:0.93rem;"></p>
+
+                <div class="row g-3 mb-4">
+                    <div class="col-sm-6">
+                        <div class="modal-info-pill">
+                            <span class="pill-label"><i class="bi bi-lightning-charge-fill me-1"></i>Activities</span>
+                            <span class="pill-value" id="modalActivities"></span>
+                        </div>
+                    </div>
+                    <div class="col-sm-6">
+                        <div class="modal-info-pill">
+                            <span class="pill-label"><i class="bi bi-clock-fill me-1"></i>Hours</span>
+                            <span class="pill-value" id="modalHours"></span>
+                        </div>
+                    </div>
+                    <div class="col-sm-6">
+                        <div class="modal-info-pill">
+                            <span class="pill-label"><i class="bi bi-ticket-perforated-fill me-1"></i>Entrance Fee</span>
+                            <span class="pill-value" id="modalFee"></span>
+                        </div>
+                    </div>
+                    <div class="col-sm-6">
+                        <div class="modal-info-pill">
+                            <span class="pill-label"><i class="bi bi-cloud-sun-fill me-1"></i>Best Time</span>
+                            <span class="pill-value" id="modalBestTime"></span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="modal-tip-box">
+                    <div class="font-mono small fw-bold text-white text-uppercase mb-1">
+                        <i class="bi bi-lightbulb-fill me-1"></i> Pro Tip
+                    </div>
+                    <p id="modalTravelTips" class="mb-0 small" style="color:rgba(255,255,255,0.85);line-height:1.65;"></p>
+                </div>
+
+                <div class="text-center mt-4">
+                    <a href="#inquiry" class="btn-submit" style="font-size:0.82rem;padding:11px 28px;" data-bs-dismiss="modal">
+                        <i class="bi bi-send-check-fill"></i> Inquire About This Spot
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- ════════════════════════════════════════════════════
+     LIGHTBOX MODAL
+════════════════════════════════════════════════════ -->
+<div class="modal fade lightbox-modal" id="lightboxModal" tabindex="-1" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-xl">
+        <div class="modal-content" style="background:transparent;border:none;">
+            <div class="modal-body p-0 position-relative text-center">
+                <button type="button" class="modal-close-btn" style="top:0;right:0;position:absolute;" data-bs-dismiss="modal">
+                    <i class="bi bi-x-lg"></i>
+                </button>
+                <img id="lightboxImage" src="" alt="Gallery preview" class="lightbox-img" style="transition:opacity 0.3s ease;">
+                <div>
+                    <span id="lightboxCaption" class="lightbox-caption"></span>
+                </div>
+                <button id="lightboxPrev" class="lightbox-nav lightbox-prev" aria-label="Previous">
+                    <i class="bi bi-chevron-left"></i>
+                </button>
+                <button id="lightboxNext" class="lightbox-nav lightbox-next" aria-label="Next">
+                    <i class="bi bi-chevron-right"></i>
+                </button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- ════════════════════════════════════════════════════
+     SCRIPTS
+════════════════════════════════════════════════════ -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+<script src="app.js"></script>
+
+</body>
+</html>
